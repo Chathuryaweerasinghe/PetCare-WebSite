@@ -1,0 +1,176 @@
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="icon" type="image" href="footprint.jpg"> 
+	<style>
+	h2::first-letter{
+		font-size:160%;
+		}
+		
+	.line{
+		padding-bottom:5px;
+		border-bottom-style:solid;
+		border-bottom-width:5px;
+		width:250px;
+	}
+	
+	.change:hover{
+		background-color:#FFF176;
+	}
+	
+	
+		header{
+			margin-top: 0;
+			padding: 0;
+			background-color:black;
+			
+		}
+
+		.img1{
+			margin: 0;
+			padding: 0;
+			width:  2%;
+			float:left;
+		}
+
+		.img2{
+			margin: 0;
+			padding: 0;
+			width: 2%;
+			float:right;
+			
+		}
+
+		.cls{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			width: 100%;
+		}
+		#topp{
+			margin: 0;
+			padding: 0.5%;
+			font-size: 30px;
+			color:white;
+			font-family:Sans-serif;
+			letter-spacing:6px;
+		}
+		.button{
+			text-align: right;
+			cursor:pointer;
+			
+		}
+
+		a{
+			text-decoration: none;
+			color:white;
+			font-family:Serif;
+		}
+		
+		body {
+ 			margin: 0;
+		}
+		
+		.button1{
+			background-color:black;
+			margin-left:1.5%;
+			width:100px;
+			text-align:center;
+			padding:5px;
+			border:black;
+			}
+			
+		.button1:hover{
+			background-color:#8B0000;
+		}
+		
+		.img3{
+			border-radius: 80%;
+			border:2px solid red;
+			margin-left:18%;
+		}
+		
+		td{
+			vertical-align:top;
+			}
+		
+		iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+		
+		.sprite {display: inline-block; vertical-align: middle;}
+		.sprite {background-image: url(full.png); background-position: left center; background-repeat: no-repeat;}
+		.sprite.location_png {background-position: 0 0; width: 30px; height: 30px;}
+		.sprite.call_jpg {background-position: 0 -31px; width: 30px; height: 30px;}
+		.sprite.mail_jpg {background-position: 0 -62px; width: 30px; height: 30px;}		
+			
+	</style>
+	
+</head>
+<body style="background-color:#5499C7">
+	<header>
+		<div class="cls">
+			<p id="topp"><img class="img1" src="footprint.jpg"> <b>PET CARE</b><img class="img2" src="footprint.jpg"></p>
+		
+			<nav class="button">
+				<button class="button button1"><a href="petHome.html">HOME</a></button>
+				<button class="button button1"><a href="petServices.html">SERVICES</a></button>
+				<button class="button button1"><a href="DogAboutUs.html">ABOUT</a></button>
+				<button class="button button1"><a href="CustomerReviews.html">REVIEWS</a></button>
+			</nav>
+		</div>
+	</header>
+	<div style="margin:2%;" >
+		<h2 class="line" style="letter-spacing:2px;">CONTACT US</h2>
+		<form>
+			<input class="change" style="height:7%; width:100%;color:grey;text-indent:12px" type="text" name="Name" value="Name" required>
+			<br><br>
+			<input class="change" style="height:7%; width:100%;color:grey;text-indent:12px" type="text" name="Subject" value="Vehicle" required>
+			<br><br>
+			<input class="change" style="height:7%; width:100%;color:grey;text-indent:12px" type="text" name="Phone" value="Phone" required>
+			<br><br>
+			<input class="change" style="height:7%; width:100%;color:grey;text-indent:12px" type="text" name="Email" value="Email" required>
+			<br><br>
+			<textarea class="change" style="height:12%;width:100%;color:grey;text-indent:12px">Message</textarea>
+			<br><br><br>
+		</form>
+			<form action="petHome.html">
+			<input style="height:7%; width:100%;text-align:center;letter-spacing:5px;border-radius:20px;background-color:#FFA500" type="submit" value="SUBMIT NOW" >
+			</form>
+		
+
+
+	</div>
+	
+	<footer>
+		<div>
+			<table style="background-color:black; color:white; width:100%;margin-top:4%;">
+				<tr>
+					<td><br><img class="img3" src="images.jpg"><p style="font-family:Tiamaria;text-align:center;margin-left:1%;">“<b><i>P</b>ets are humanizing. They remind <br>us we have an obligation and<br> responsibility to preserve and <br>nurture and care for all life”</p></i></td>
+					<td><br><p style="text-align:left;font-size:20px;"><b>Have A Question</b></p><br>
+					<p> <a href="petServices.html">Services</a><br><br>
+						<a href="DogHostel.html">Dog Hostel</a><br><br>
+						<a href="DogAboutUs.html">About Us</a><br><br>
+						<a href="ContactUs.html">Contact Us</a><br></td></p></td>
+					<td><br><p style="text-align:center;font-size: 20px;"><b>Information</b></p><br>
+						<div style="display: flex;"><span class="sprite location_png"></span>Pet Care (pvt) Ltd, 123,1st floor,<br>Dalugama,Kelaniya
+						</div><br>
+						<div style="display: flex;"><span class="sprite call_jpg"></span>Telephone: 0112 999999<br>Fax: 0094 112 621 382
+						</div><br>
+						<div style="display: flex;"><span class="sprite mail_jpg"></span>info@petcare.com
+						</div><br>
+					</td>
+					<td><br><p style="text-align:center;font-size:20px;"><b>Visit Us</b></p><br>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7937.361002373528!2d79.98297249677845!3d6.981951314768704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250f4c58083a9%3A0x5b1b1df30c1e7eb3!2sKelaniya!5e0!3m2!1sen!2slk!4v1690980000000!5m2!1sen!2slk" allowfullscreen loading="lazy">
+						</iframe></td>
+				</tr>
+				<tr style="background-color:grey; color:white;text-align:center;border:1px solid grey">
+					<td colspan="4">&#169;2023 pet care 11600, Designed by Chathurya Weerasinghe</td>
+				</tr>
+			</table>
+		</div>
+	</footer>
+</body>
+</html>
